@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "chromedriver": "^142.0.0",
+    "selenium-webdriver": "^4.38.0"
+  },
+  "name": "prueba-m-l",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha mercadolibre.test.js --reporter mochawesome --reporter-options reportDir=reportes,reportFilename=ML-Reporte,html=true,json=false,overwrite=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^11.7.4",
+    "mochawesome": "^7.1.4"
+  }
+}
