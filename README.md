@@ -1,6 +1,6 @@
 # 🤖 Automatización de Prueba en la pagina de **Mercado Libre**
 
-Este proyecto contiene un script de automatización de pruebas (QA Automation) desarrollado con **Selenium WebDriver y JavaScript (Node.js)**. El objetivo es simular la navegación inicial de un usuario en el sitio de Mercado Libre y validar la correcta selección del país.
+Este proyecto contiene un script de automatización de pruebas (QA Automation) desarrollado con **Selenium WebDriver y JavaScript (Node.js)**. El objetivo es simular la navegación inicial de un usuario en el sitio de Mercado Libre, ingresar al sitio del pais correspondiente, hacer una busqueda de un producto, filtrar por productos nuevos, ordernar de mayor a menor, de menor a mayor y obtener el nombre y precio de los primeros 5 productos.
 
 <br>
 <br>
