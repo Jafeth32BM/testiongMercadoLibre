@@ -33,10 +33,11 @@ Antes de ejecutar el script, asegúrate de tener instalado lo siguiente:
 
 # 🚀 Configuración e Instalación
 Para configurar el proyecto en local
-1. Clonar el Repositorio desde el sigiente enlace de _[GitHub](https://github.com/Jafeth32BM)_
+1. Clonar el Repositorio desde el sigiente enlace de _[GitHub](https://github.com/Jafeth32BM/testiongMercadoLibre)_.
+O bien colocando la siguente linea de comando en terminal:
 
 
-    ```git clone [URL_DEL_REPOSITORIO]```
+    ```git clone https://github.com/Jafeth32BM/testiongMercadoLibre.git```
 
 2. Inicializar e Instalar Dependencias
 **Asegúrate de que el archivo package.json exista** (usando ```npm init -y```). 
@@ -55,8 +56,10 @@ Para configurar el proyecto en local
 ```
 .
 ├── node_modules/         # Dependencias instaladas por npm
+├── reportes/             # Carpeta contenedora de los reportes por Mocha 
 ├── package.json          # Archivo de configuración de Node.js
 ├── package-lock.json     # Bloqueo de versiones de dependencias
+├── mercadolibre.test.ts  # Script para el reporte de ejecucion
 └── index.js              # 👈 El script principal de automatización
 ```
 
@@ -71,6 +74,15 @@ Para ejecutar el script de automatización, abre la terminal en la raíz del pro
 <br>
 <br>
 
+# 🧾 Ejecución para los reportes
+De igual manera para ejecutar los reportes de prueba, abre la terminal en la raiz del proyecto y utiliza el siguiente comando:
 
-**Autor:** Josephan Jafeth Badillo Martinez 
+```npm test```
+
+<br>
+<br>
+
+
+**Autor:** Josephan Jafeth Badillo Martinez
+<br>
 **Fecha:** 31-oct-2025
