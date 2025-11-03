@@ -58,6 +58,12 @@ Para configurar el proyecto en local
 
 Esto instalará Selenium WebDriver y el ChromeDriver necesario para controlar el navegador Chrome.
 
+4.  Para instalar mocha y mochawesome se ejecuta el sigueinte comando
+```bash
+    npm install mocha mochawesome assert --save-dev
+```
+El  ``` --save-dev ``` indica que solo se debe de instalar en este proyecto pues solo es para ejecutar pruebas masno para el codigo en si.
+
 <br>
 <br>
 
